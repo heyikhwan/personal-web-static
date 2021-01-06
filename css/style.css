@@ -1,0 +1,144 @@
+body {
+  font-family: "Kanit", sans-serif;
+  background-color: #201f1f;
+  color: #fff;
+}
+
+.x-color {
+  color: #fdc15f;
+}
+
+#blog .x-color:hover, footer a:hover, .porto-link:hover {
+  color: #ffaf29!important;
+}
+
+.btn-x-color {
+  background-color: #fdc15f;
+  border-color: transparent;
+  transition: background-color .3s;
+}
+
+.btn-x-outline {
+  color: #fdc15f;
+  border-color: #fdc15f;
+  transition: all .3s;
+}
+
+.btn-x-color:hover {
+  background-color: #ffaf29;
+  border-color: transparent;
+}
+
+.btn-x-outline:hover {
+  color: #201f1f;
+  background-color: #ffaf29;
+}
+
+.x-navbar {
+  background-color: #201f1f;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 99999;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+}
+
+#x-header {
+  background-color: #201f1f;
+}
+
+.x-box-header {
+  z-index: 99;
+  color: white;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(31, 30, 30, 0.7);
+}
+
+.dropdown-menu {
+  background-color: #323232;
+}
+
+.dropdown-item {
+  color: #fff;
+}
+
+.dropdown-item:hover {
+  background-color: #fdc15f;
+}
+
+#x-job {
+  font-size: 2.3em;
+}
+
+.x-socmed a {
+  color: #201f1f;
+  font-weight: bold;
+}
+
+.x-hire {
+  padding: 0.7rem 2rem;
+  color: #201f1f;
+}
+
+.x-about-img {
+  transition: transform .3s;
+}
+
+.x-about-img:hover {
+  transform: rotate(3deg);
+}
+
+.x-porto-thumb-index {
+  transition: transform .3s;
+}
+
+.x-porto-thumb-index:hover {
+  transform: scale(1.01);
+}
+
+.x-link {
+  color: #fff;
+}
+
+.x-link:hover {
+  color: #ffaf29;
+}
+
+.x-card, .x-blog {
+  transition: all .3s;
+}
+
+.x-card:hover {
+  transform: scale(1.01);
+  box-shadow: 0 .5rem 1rem rgba(255, 175, 41,.1);
+}
+
+.x-blog:hover {
+  transform: scale(1.01);
+}
+
+
+
+/* Medium Device */
+@media (min-width: 768px) { 
+    #x-job {
+        font-size: 4em;
+    }
+}
+
+
+/* Large Device */
+@media (min-width: 992px) {
+  /*  */
+}
